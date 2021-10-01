@@ -1,1 +1,169 @@
-/* TODO: Make it awesome */
+html{
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(51, 55, 59);
+    margin: 0px auto;
+    padding: 20px 0px;
+    width: 1064px;
+}
+
+body > header {
+    background-color: grey;
+    border-radius: 5px;
+    color: white;
+    height: 70px;
+    margin: 0px auto 19px auto;
+    width: 1024px;
+}
+
+body > header > h1 {
+    font-size: 40px;
+    font-style: italic;
+    float: left;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+body > header > nav {
+    height: 70px;
+    float: right;
+    font-size: 0px;
+    width: 260px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100px;
+}
+
+li > a {
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+li > a:hover {
+    border-radius: 5px;
+    color: black;
+    transition-duration: 300ms;
+}
+
+main{
+    width: 100%;
+    margin: 10px auto;
+
+}
+main > section {
+    width: 100%;
+    margin: auto;
+}
+
+main > section:first-child > div > header {
+    background-color: rgb(135, 99, 192);
+    border-radius: 5px;
+    color: antiquewhite;
+    height: 25px;
+    font-size: 25px;
+    padding: 7.5px;
+    margin-bottom: 10px;
+    width: 1009px;
+}
+
+main > section:first-child > div > div {
+    padding-left: 20px;
+}
+
+main > section:first-child > div > div > ol {
+    list-style-type: disc;
+}
+
+main > section:first-child > div > div > ol > li {
+    margin-bottom: 10px;
+}
+
+main > section:last-child {
+    overflow: auto;
+    margin: 20px 0px;
+}
+
+main > section:last-child > div:first-child {
+    float: left;
+    width: 505px;
+}
+
+main > section:last-child > div:last-child{
+    float: right;
+    width: 505px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+legend {
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+main > section:last-child > div:last-child {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px 0px 0px 10px;;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+main > section > div > ul > li {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+table {
+    margin: auto;
+    width: 490px;
+}
+
+thead > tr {
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+tr {
+    border-bottom: 1px solid white;
+}
+
+td {
+    font-size: 15px;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+footer {
+    border-radius: 5px;
+    background-color: rgb(36, 32, 32);
+    color: antiquewhite;
+    margin: 20px auto 0px auto;
+    width: 100%;
+}
+
+footer > p {
+    padding: 10px;
+}
